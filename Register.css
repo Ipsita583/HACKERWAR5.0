@@ -1,0 +1,61 @@
+/* Register.css */
+
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f3f4f6; /* Light skin tone background */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+select {
+  appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 4 5%27%3e%3cpath fill=%27%23007bff%27 d=%27M2 0L0 2h4zM0 3h4L2 5z%27/%3e%3c/svg%3e');
+  background-repeat: no-repeat;
+  background-position: right 12px top 50%;
+  background-size: 12px 12px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+button {
+  padding: 12px;
+  background-color: #00bcd4; /* Greenish cyan color */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0097a7; /* Darker shade of greenish cyan */
+}
